@@ -1,0 +1,925 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #131E3A;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 30px;
+}
+
+.marketplace {
+  position: relative;
+  line-height: 160%;
+  transition: 0.3s ease;
+}
+
+.marketplace:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.marketplace-wrapper {
+  border-bottom: 1px solid #d6ef0e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact {
+  position: relative;
+}
+
+.cta {
+  border-radius: 8px;
+  background-color: #d6ef0e;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.cta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 28px 111px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 16px;
+  color: rgba(255, 255, 253, 0.72);
+  font-family: "Inter";
+}
+
+.section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.discover-and {
+  margin: 0;
+}
+
+.digital-art {
+  color: #d6ef0e;
+}
+
+.discover-and-collect-container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+
+.get-started-with {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  font-family: "Inter";
+}
+
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.explore-now {
+  position: relative;
+  line-height: 120%;
+}
+
+.primary-cta {
+  border-radius: 8px;
+  background-color: #d6ef0e;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease;
+}
+
+.primary-cta:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.learn-more {
+  position: relative;
+  color: #fffffd;
+}
+
+.primary-cta-parent {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 36px;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+
+.main-content {
+  width: 544px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.k1 {
+  color: #fffffd;
+}
+
+.k {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.art-work {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inter";
+  color: #fffffd;
+}
+
+.k-parent {
+  border-right: 1px solid #d6ef0e;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 28px 0px 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.k-group {
+  border-right: 1px solid #d6ef0e;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 24px 0px 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.k-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.stats {
+  padding-top: 50px;
+  width: 538px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 94px;
+  font-size: 48px;
+  color: #d6ef0e;
+}
+
+.content {
+  position: relative;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 72px;
+  text-align: left;
+  font-size: 58px;
+  color: #fffffd;
+  font-family: "Canela";
+}
+
+.imgg {
+  margin-left: 270px;
+}
+
+
+
+.amazing-art-work-thi-week-child {
+  position: absolute;
+
+  background-color: #1f413d;
+  filter: blur(350px);
+  width: 434px;
+  height: 305px;
+  z-index: 0;
+}
+
+.amazing {
+  color: #d6ef0e;
+}
+
+.amazing-and-super {
+  margin: 0;
+  width: 400px;
+}
+
+.amazing-and-super-container {
+  position: relative;
+  font-weight: 500;
+}
+
+.see-all {
+  position: relative;
+}
+
+.cta {
+  border-radius: 8px;
+  background-color: #d6ef0e;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Inter";
+}
+
+.amazing-and-super-unique-art-o-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.child {
+  position: relative;
+  border-radius: 16px;
+  width: 370px;
+  height: 340px;
+  object-fit: cover;
+}
+
+.section-3 {
+  margin-bottom: 70px;
+}
+
+.vuesaxlinearethereum-classic-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.vuesaxlinearethereum-classic-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.cyberpunk-cocomo-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ending-in {
+  position: relative;
+  line-height: 160%;
+}
+
+.vuesaxlinearclock-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 16px;
+  color: #fffffd;
+}
+
+.ending-in-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.cta1 {
+  border-radius: 8px;
+  border: 1px solid #d6ef0e;
+  box-sizing: border-box;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #d6ef0e;
+  transition: 0.3s ease;
+}
+
+.cta1:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #838382;
+}
+
+.frame-parent {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.div {
+  border-radius: 28px;
+  background-color: #131e3a;
+  border-top: 1px solid #d6ef0e;
+  box-sizing: border-box;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  z-index: 2;
+  font-size: 24px;
+  font-family: "Inter";
+}
+
+.amazing-art-work-thi-week {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 111px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  text-align: left;
+  font-size: 48px;
+  color: #fffffd;
+  font-family: "Canela";
+}
+
+.create-and-sell-your-best-nft-child {
+  position: absolute;
+  margin: 0 !important;
+  top: 570px;
+  left: 1071px;
+  background-color: #1f413d;
+  filter: blur(250px);
+  width: 346px;
+  height: 128px;
+  z-index: 0;
+}
+
+.create-and-sell {
+  margin: 0;
+}
+
+.best-nfts {
+  color: #d6ef0e;
+}
+
+.create-and-sell-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.start-exploring-the {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 160%;
+  font-family: "Inter";
+}
+
+.title-1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.create-now {
+  position: relative;
+  line-height: 120%;
+}
+
+.cta1 {
+  border-radius: 8px;
+  background-color: #d6ef0e;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.learn-more {
+  position: relative;
+  line-height: 120%;
+  color: #fffffd;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 36px;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Inter";
+}
+
+.content {
+  width: 426px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  z-index: 1;
+}
+
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 330px;
+  border-radius: 24px;
+  width: 410px;
+  height: 475px;
+  object-fit: cover;
+}
+
+.group-item {
+  position: absolute;
+  top: 159px;
+  left: 0px;
+  border-radius: 24px;
+  width: 410px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.rectangle-parent {
+  position: relative;
+  width: 740px;
+  height: 559px;
+  z-index: 2;
+}
+
+.create-and-sell-your-best-nft-item {
+  position: absolute;
+  margin: 0 !important;
+  top: 615px;
+  left: -140px;
+  background-color: #131e3a;
+  filter: blur(350px);
+  width: 291px;
+  height: 257px;
+  z-index: 3;
+}
+
+.create-and-sell-your-best-nft {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 124px;
+  text-align: left;
+  font-size: 48px;
+  color: #fffffd;
+  font-family: "Canela";
+}
+
+.section-4 {
+  margin-bottom: 70px;
+}
+
+
+.artists {
+  color: #d6ef0e;
+}
+
+.popular-artists {
+  margin: 0;
+}
+
+.popular-artists-on-container {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.see-all {
+  position: relative;
+  line-height: 120%;
+}
+
+.cta {
+  border-radius: 8px;
+  background-color: #d6ef0e;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 40px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Inter";
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 500px;
+  margin-bottom: 50px;
+}
+
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  width: 300px;
+  height: 311px;
+  object-fit: cover;
+}
+
+.frame-child {
+  position: relative;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.owner {
+  position: relative;
+  line-height: 160%;
+}
+
+.osvaldo-percy {
+  position: relative;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.owner-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+
+.ellipse-parent {
+  position: absolute;
+  top: 239px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.rectangle-parent {
+  position: relative;
+  width: 300px;
+  height: 311px;
+}
+
+.group-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  width: 520px;
+  height: 311px;
+  object-fit: cover;
+}
+
+.rectangle-group {
+  position: relative;
+  width: 520px;
+  height: 311px;
+}
+
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.group-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  width: 410px;
+  height: 311px;
+  object-fit: cover;
+}
+
+.rectangle-container {
+  position: relative;
+  width: 410px;
+  height: 311px;
+}
+
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.group-child1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  width: 410px;
+  height: 652px;
+  object-fit: cover;
+}
+
+.ellipse-parent1 {
+  position: absolute;
+  top: 580px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.rectangle-parent1 {
+  position: relative;
+  width: 410px;
+  height: 652px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 14px;
+  font-family: "Inter";
+}
+
+.popular-artists-on-this-week {
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  text-align: left;
+  font-size: 48px;
+  color: #fffffd;
+  font-family: "Canela";
+}
+
+.section-5 {
+  margin-bottom: 70px;
+}
+
+
+
+
+.discover-nfts-byf {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+
+.textf {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.frame-iconf {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-parentf {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.contentf {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.exploref {
+  position: relative;
+  line-height: 120%;
+}
+
+.art-sign-inf {
+  position: relative;
+  line-height: 160%;
+  transition: 0.3s ease;
+}
+
+.art-sign-inf:hover {
+  cursor: pointer;
+  color: #d6ef0e;
+  transition: 0.3s ease;
+}
+
+.art-sign-in-parentf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #fffffd;
+}
+
+.explore-parentf {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.frame-groupf {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 94px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.content-parentf {
+  border-bottom: 1px solid #838382;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 48px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 293px;
+}
+
+.copyright-2023-f {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 242px;
+  flex-shrink: 0;
+}
+
+.privacy-policy-parentf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 28px;
+}
+
+.copyrightf {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footerf {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 111px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  text-align: left;
+  font-size: 16px;
+  color: #fffffd;
+  font-family: Inter;
+}
